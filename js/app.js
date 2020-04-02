@@ -17,7 +17,9 @@ function imgScroll() {
         value = -1;
         times = 1;
       } else if (img2.getBoundingClientRect().x === 0) {
-        if(times = 1){clearInterval(int);img.style.overflow = 'scroll'}
+        if(times = 1){img.style.overflow = 'scroll';
+                      clearInterval(int);
+      }
       }
     }, 1000 / 60);
   } else {
