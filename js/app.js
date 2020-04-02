@@ -17,7 +17,7 @@ function imgScroll() {
       } else if (img2.getBoundingClientRect().x === 0) {
         value = 1;
       }
-    }, 1000 / 50);
+    }, 1000 / 60);
   } else {
     return;
   }
