@@ -29,6 +29,6 @@ imgScroll();
 
 img.onclick = function(){
   clearInterval(int);
-//   img2.style.marginLeft = 0 + "px";
+  img2.style.marginLeft = 0 + "px";
   img.style.overflow = 'scroll'
 }
