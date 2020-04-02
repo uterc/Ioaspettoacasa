@@ -71,7 +71,7 @@ img.main-img {
 
 .bottom {
   width: 100%;
-  height: var(--bottom-heigth);
+  min-height: var(--bottom-heigth);
   background-color: var(--primary-color);
   padding-top: 3vh;
 }
