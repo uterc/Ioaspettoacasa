@@ -17,7 +17,7 @@ function imgScroll() {
         value = -1;
         times = 1;
       } else if (img2.getBoundingClientRect().x === 0) {
-//      clearInterval(int);
+        if(times = 1){clearInterval(int);}
       }
     }, 1000 / 60);
   } else {
