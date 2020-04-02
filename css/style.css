@@ -261,6 +261,9 @@ footer {
   text-align: center;
   color: #fff;
 }
+.desc > p > a {
+  color: #fff;
+}
 
 @media (min-width: 960px) {
   body {
