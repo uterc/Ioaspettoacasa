@@ -73,11 +73,11 @@ img.main-img {
   width: 100%;
   min-height: var(--bottom-heigth);
   background-color: var(--primary-color);
-  padding-top: 3vh;
+  /* padding-top: 3vh; */
 }
 
 .bottom > div {
-  padding: 25px;
+  padding-top: 20px;
 }
 .bottom > div > p {
   text-align: center;
@@ -224,7 +224,7 @@ th {
 }
 td {
   box-sizing: border-box;
-  padding: 15px 5px 15px 10px;
+  padding: 15px 5px 15px 5px;
   border: 1px solid var(--secondary-color);
 }
 td > i {
